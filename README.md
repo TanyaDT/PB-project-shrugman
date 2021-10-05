@@ -39,8 +39,8 @@ Take a look at the examples:
 
 When the user wins a round:
 
-![example win](example.gif)
+![example win](img/example-win.gif)
 
 When the user loses a round:
 
-![example loss](example-loss.gif)
+![example loss](img/example-loss.gif)
