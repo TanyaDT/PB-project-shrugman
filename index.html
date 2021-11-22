@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shrugman Project</title>
+  </head>
+  <body>
+    <h1>Shrugman</h1>
+    <div class="cat-container" id="category">
+      <p>Choose a category</p>
+      <div class="categories">
+        <a class="cat" href="#">Movie</a>
+        <a class="cat" href="#">Book</a>
+      </div>
+    </div>
+
+    <div id="gamebox">
+      <div id="word"></div>
+      <div id="letterField"></div>
+      <input type="text" name="letter" id="letter" maxlength="1" />
+      <button id="guess">Make a guess</button>
+    </div>
+    <div id="shrugman"></div>
+    <div id="guessed"></div>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>

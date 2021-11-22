@@ -48,3 +48,33 @@ When the user wins a round:
 When the user loses a round:
 
 ![example loss](img/example-loss.gif)
+
+==========================
+
+player1 = cat
+shrug = ```bash
+¯\_(:/)_/¯
+```
+
+index = 0
+playerGuessing = _a_
+
+loop() {
+    let guess = prompt ('guess the letter')
+
+    if guess is correct {
+        if (counterScores(playerGuessing)===0)
+        console.log(congrats you win)
+        break (or exit)
+        playerGuessing[player1.indexOf(guess)] = guess
+        console.log (playerGuessing) 
+        //guess = prompt ('guess the letter')
+    }
+    else 
+    if (its not correct) {
+        if (index => shrug.length)
+    }
+    console.log(game over) break (exit)
+}
+console.log(shrug.slice(0,index))
+++index 
